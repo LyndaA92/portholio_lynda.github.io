@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-image: url("./img/ciel_etoile.jpg");
+    background-size: 100% 100%;
+}
+.header img {
+    width: 100%; 
+    height: 100%; 
+}
+    
+.header_titre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.header_titre h2 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #8775a4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button header{
+background-color: #f7f2f7 ;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: #70426e;
+   
+}
+.navbar {
+    display: flex; 
+    width: 100%;
+    height: 80px;
+    background-color: #70426e ; 
+    padding: 10px; 
+
+}
+.logo {
+    width: 90px;
+    height: 90px;
+    background-color: chartreuse;
+}
+.navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 1.2rem; 
+    font-family: Arial, sans-serif; 
+}
+.about{
+    color: black;
+    font: size 24px;
+    justify-content: center;
+}
+.about_title {
+    text-align: center;
+    margin: 32px 0px;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.about_qualite {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.about_qualite_card {
+    width: 20%; 
+    height: 200px; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.about_qualite_card img{
+    width: 120px;
+    height: 120px;
+    background-color: #70426e;
+    border-radius: 25%;
+    padding: 28px;
+}
+.about_competence {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.competence_barre {
+    display: flex;
+    margin-bottom: 20px;
+}
+.competence_left {
+    width: 30%;
+}
+#competence_left_img{
+    width: 180px;
+    height: 180px;
+    border-radius: 40%;
+    padding: 8px;
+    margin: 32px 
+}
+.competence_left_text{
+    text-align: start;
+    margin: 32px ;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+.competence_right {
+    display: flex;
+   flex-direction: column;
+    width: 100%;
+  }
+  
+  .barre_title {
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgb(215, 200, 212);
+    height: 100%;
+    width: 20%;
+  }
+  
+  .barre_indicateur {
+    width: 90%;
+    background-color: #61405f;
+  }
+  
+  .barre_pourcentage {
+    background-color: darkgrey;
+    width: 10%;
+    text-align: center;
+}
+  
+.projet{
+    color: black;
+    font-size :24px;
+    justify-content: center;
+    text-align: center;
+  }
+  .projet_lien img{
+    width: 300px;
+    height: 500px;
+    padding: 40px;
+    margin-top: 20px;
+  }
+  .contact {
+    font-size: 24px;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .contact h2 {
+    font-size: 24px;
+    color: #423232;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+
+  }
+  .contact input{
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .contact button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #1c1b22;
+    color: #fffcfc;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#70426e;
+    padding: 20px;
+  }
+  .footer_link {
+    width: 30px; 
+    height: 30px; 
+    margin: 5px; 
+    padding: 5px;
+    
+  }
